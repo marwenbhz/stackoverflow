@@ -11,9 +11,9 @@ class StackoverflowspiderSpider(scrapy.Spider):
     name = 'stackoverflowspider'
     allowed_domains = ['stackoverflow.com']
     start_urls = ['http://stackoverflow.com/questions?pagesize=50&sort=newest']
-    custom_settings = {
-    'LOG_FILE': 'logs/stackoverflow.log',
-    'LOG_LEVEL':'DEBUG'
+    #custom_settings = {
+    #'LOG_FILE': 'logs/stackoverflow.log',
+    #'LOG_LEVEL':'DEBUG'
      }
     #rules = [Rule(LinkExtractor(allow=r'questions\?page=[0-9]&sort=newest'),callback='parse', follow=True)]
 
