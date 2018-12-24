@@ -14,7 +14,7 @@ class StackoverflowspiderSpider(scrapy.Spider):
     #custom_settings = {
     #'LOG_FILE': 'logs/stackoverflow.log',
     #'LOG_LEVEL':'DEBUG'
-     }
+#     }
     #rules = [Rule(LinkExtractor(allow=r'questions\?page=[0-9]&sort=newest'),callback='parse', follow=True)]
 
 
